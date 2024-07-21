@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Games</title>
+  <link rel="stylesheet" href="css/games.css">
+</head>
+
+<body>
+  <!-- <script src="print.js"></script> -->
+
+  <!-- <script type="module" src="print2.js"></script>
+  <script type="module">
+    import {hello2} from "/print2.js"
+    document.querySelector('.right-arrow').addEventListener('click',()=>hello2()) 
+  </script> -->
+  
+  <script type="module" src="./scripts/data.js"></script>
+  <script type="module">
+    import {data,leftArrow,rightArrow} from "./scripts/data.js"
+    document.querySelector('.left-arrow').addEventListener('click',()=>leftArrow()) 
+    document.querySelector('.right-arrow').addEventListener('click',()=>rightArrow()) 
+  </script>
+
+  
+
+
+  <div class="header">
+    <div class="nc-logo-div">
+      <a  href="https://norwaychess.no/en/">
+        <img class="nc-logo-img" src="logo/nc-logo.png" alt="">
+      </a>
+    </div>
+    <a class="year-link" href="">2024<span>&darr;</span></a>
+  </div>
+
+  <div class="categories">
+    <div class="div1"></div>
+    <div class="div2"></div>
+
+    <a class="div3" href="games.html">
+      <div >GAMES</div>
+    </a>
+
+    <a class="div4" href="standings.html">
+      <div >STANDINGS</div>
+    </a>
+
+    <a class="div5" href="players.html">
+      <div >PLAYERS</div>
+    </a>
+
+    <a class="div6" href="rules.html">
+      <div >RULES</div>
+    </a>
+    
+    <div class="div7"></div>
+    <div class="div8"></div>
+  </div>
+
+  <p class="standings">Games</p>
+
+  
+  <div class="main-container">
+    <div class="round-info" >Round 10
+      <div class="left-arrow">&larr;</div>
+      <div class="right-arrow">&rarr;</div>
+      <div class="round-num">7.06</div>
+    </div>
+    
+    <div class="match-1">
+      <div class="image-container-left">
+        <img class ="player-image-left" src="small-images/magnus.jpeg" alt="">
+      </div>
+
+      <div class="deets">
+        <p class="player-name-left">Magnus Carlsen</p>
+        <p class="score">1.5 - 1</p>
+        <p class="player-name-right">Fabiano Caruana</p>
+      </div>
+      
+      <div class="image-container-right">
+        <img class="player-image-right" src="small-images/fabi.jpeg" alt="">
+      </div>
+    </div>
+
+    <div>
+      <div class="match-1">
+        <div class="image-container-left">
+          <img class ="player-image-left" src="small-images/pragg.jpeg" alt="">
+        </div>
+  
+        <div class="deets">
+          <p class="player-name-left">Praggnanandhaa Rameshbabu</p>
+          <p class="score">1.5 - 1</p>
+          <p class="player-name-right">Hikaru Nakamura</p>
+        </div>
+        
+  
+        <div class="image-container-right">
+          <img class="player-image-right" src="small-images/hikaru.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <div>
+      <div class="match-1">
+        <div class="image-container-left">
+          <img class ="player-image-left" src="small-images/ding.jpeg" alt="">
+        </div>
+  
+        <div class="deets">
+          <p class="player-name-left">Ding Liren</p>
+          <p class="score">1 - 1.5</p>
+          <p class="player-name-right">Alireza Firouza</p>
+        </div>
+        
+  
+        <div class="image-container-right">
+          <img class="player-image-right" src="small-images/alireza.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <script src="./scripts/data.js"></script> -->
+</body>
+
+</html>

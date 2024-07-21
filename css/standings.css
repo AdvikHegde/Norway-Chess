@@ -1,0 +1,157 @@
+body{
+  background-color:black;
+}
+
+p{
+  margin:0px;
+}
+
+.header{
+  margin-left:auto;
+  margin-right:auto;
+   
+  width:950px;
+
+  display:grid;
+  grid-template-columns:475px 475px;
+  align-items: center;
+  
+}
+
+.nc-logo-div{
+  margin-top:20px;
+
+  height:52.5px;
+  width:52.5px;
+
+  display:inline-block;
+
+}
+
+.nc-logo-img{
+  height:100%;
+}
+
+.year-link{
+  text-align: end;
+  color:white;
+  font-size:28px;
+  font-weight:bold;  
+}
+
+.categories{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  
+  display:block;
+  width:950px;
+
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height:145px;
+  column-gap:2px;
+
+  text-align: center;
+  
+}
+
+.div1,.div3,.div5,.div7{
+  background-color:rgb(241, 221, 163);
+  border-radius:25px;
+  font-family: arial;
+}
+
+.div2,.div6,.div8{
+  background-color:rgb(253, 249, 227);
+  font-family: arial;
+}
+
+.div4{
+  color:white;
+  font-family: arial;
+  font-weight:bold;
+}
+
+.div1,.div2{
+  opacity:0.4;
+}
+
+.div7,.div8{
+  opacity:0.4;
+}
+
+.div3,.div4,.div5,.div6{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  text-decoration:none;
+}
+
+.div3,.div5,.div6,.div7{
+  color:black;
+}
+
+.standings{
+  margin:50px;
+  text-align: center;
+  font-size:41.5px;
+  font-family:arial;
+  color:rgb(253, 249, 227);
+}
+
+
+.player-container{
+  height:220px;
+  width:950px;
+
+  margin-left:auto;
+  margin-right:auto;
+
+  display:grid;
+  grid-template-columns: 1fr;
+}
+
+.player-name{
+  display:inline;
+  vertical-align:top;
+  font-size:25px;
+  color:rgb(253, 249, 227);
+  font-family: arial;
+}
+
+.player-profile-photo{
+  display:inline;
+}
+
+.player-image{
+  width:135px;
+  height:135px;
+
+}
+
+.player-stats{
+  padding-top:5px;
+  padding-left:8px;
+
+  display:inline-block;
+  vertical-align:top;
+  font-size:17.5px;
+  font-family: arial;
+  line-height:1.45;
+  color:rgb(253, 249, 227);
+  background-color:black;
+}
+
+.player-points{
+  display:inline;
+  vertical-align:bottom;
+  font-size:25px;
+  font-weight:bold;
+  float:right;
+  color:rgb(253, 249, 227);
+  font-family: arial;
+}
+
+
+

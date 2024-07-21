@@ -1,0 +1,205 @@
+body{
+  background-color:black;
+  margin-bottom:35px;
+}
+
+p{
+  margin:0px;
+}
+
+.header{
+  margin-left:auto;
+  margin-right:auto;
+   
+  width:950px;
+
+  display:grid;
+  grid-template-columns:475px 475px;
+  align-items: center;
+  
+}
+
+.nc-logo-div{
+  margin-top:20px;
+
+  height:52.5px;
+  width:52.5px;
+
+  display:inline-block;
+
+}
+
+.nc-logo-img{
+  height:100%;
+}
+
+.year-link{
+  text-align: end;
+  color:white;
+  font-size:28px;
+  font-weight:bold;  
+}
+
+.categories{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  
+  display:block;
+  width:950px;
+
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height:145px;
+  column-gap:2px;
+
+  text-align: center;
+  
+}
+
+.div1,.div5,.div7{
+  background-color:rgb(241, 221, 163);
+  border-radius:25px;
+  font-family: arial;
+}
+
+.div2,.div4,.div6,.div8{
+  background-color:rgb(253, 249, 227);
+  font-family: arial;
+}
+
+.div3{
+  color:white;
+  font-family: arial;
+  font-weight:bold;
+}
+
+.div1,.div2{
+  opacity:0.4;
+}
+
+.div7,.div8{
+  opacity:0.4;
+}
+
+.div3,.div4,.div5,.div6{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  text-decoration:none;
+}
+
+.div4,.div5,.div6{
+  color:black;
+}
+
+.standings{
+  margin:50px;
+  text-align: center;
+  font-size:41.5px;
+  font-family:arial;
+  color:rgb(253, 249, 227);
+}
+
+.main-container{
+  margin-left:auto;
+  margin-right:auto;
+
+  display:grid;
+  width:950px;
+  height:350px;
+  background-color:black;
+  grid-template-rows:1fr 1fr 1fr 1fr;
+
+}
+
+.round-info{
+  text-align:center;
+  display:inline;
+  color:white;
+  font-family: ARIAL;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.round-num{
+  text-align:center;
+  color:white;
+  font-family: ARIAL;
+  font-weight:bold;
+  font-size:17.5px;
+}
+
+.left-arrow{
+  float:left;
+  font-size:25px;
+  color:white;
+  cursor:pointer;
+}
+
+.right-arrow{
+  float:right;
+  font-size:25px;
+  color:white;
+  cursor:pointer;
+
+}
+
+.match-1{
+  background-color:rgb(253, 249, 227);
+
+  display:grid;
+  grid-template-columns:80px 1fr 80px;
+
+  border-radius:15px;
+  margin-bottom:25px;
+}
+
+.image-container-left{
+  margin-top:10%;
+  margin-left:20%;
+}
+
+.player-image-left{
+  width:50px;
+  height:50px;
+  border-radius:100%;
+}
+
+.player-name-left{
+  font-family:Arial;
+  flex:1;
+  text-align:start;
+  
+}
+
+.score{
+  font-family:Arial;
+  font-size:26px;
+  font-weight:bold;
+  flex:1;
+}
+
+.player-name-right{
+  font-family:Arial;
+  flex:1;
+  text-align:right;
+}
+
+.image-container-right{
+  margin-top:10%;
+  margin-left:20%;
+}
+
+.player-image-right{
+  width:50px;
+  height:50px;
+  border-radius:100%;
+}
+
+.deets{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  text-align:center;
+}
